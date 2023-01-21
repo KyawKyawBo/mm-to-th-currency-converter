@@ -1,12 +1,12 @@
 <?php 
 // $page = $_SERVER['PHP_SELF'];
 // $sec = "5";
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
-    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    header('HTTP/1.1 301 Moved Permanently');
-    header('Location: ' . $location);
-    exit;
-}
+// if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+//     $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+//     header('HTTP/1.1 301 Moved Permanently');
+//     header('Location: ' . $location);
+//     exit;
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
